@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+body {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+}
+
+/* Header Section */
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-content {
+  width: 1170px;
+  height: 500px;
+  background-image: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("/Images/Group\ 13\ \(1\)\ \(1\).png");
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 106px;
+  margin-bottom: 106px;
+}
+
+.banner-title {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 800;
+  text-align: center;
+  line-height: normal;
+}
+
+.banner-description {
+  width: 676px;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.input-section {
+  display: grid;
+  grid-template-columns: repeat(4, 174px);
+  grid-template-rows: repeat(1, 52px);
+  display: inline-flex;
+  padding: 16px;
+  align-items: flex;
+  gap: 24px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.input-place-section {
+  width: 174px;
+  height: 52px;
+  border: 0;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.input-place {
+  width: 174px;
+  height: 52px;
+  border: 0;
+  padding: 16px 84px 16px 16px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.first-btn {
+  width: 174px;
+  height: 52px;
+  border: 0;
+  color: #fff;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #ff5400;
+}
+
+/* Main Section */
+
+/* Footer Section */
