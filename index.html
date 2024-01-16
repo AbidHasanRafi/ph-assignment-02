@@ -5,122 +5,152 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hero Travel</title>
     <link rel="stylesheet" href="/styles/travel.css" />
+    <script
+      src="https://kit.fontawesome.com/eb45968083.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
-      <nav class="nav-section">
+      <nav class="navgation">
         <div class="nav-description">
-          <img src="Images/Group 40071 (2).png" alt="" />
-          <h1 class="nav-header"> Tech <span class="home-nav">Tour</span></h1>
+          <img src="images/Group 40071 (2).png" alt="" />
+          <h1>Tech <span class="head-nav">Tour</span></h1>
         </div>
-        <div class="icon-description">
+        <div class="icon-description show">
           <ul>
-            <li class="home-nav"><a href=""></a>Home</li>
+            <li class="head-nav"><a href=""></a>Home</li>
             <li><a href=""></a>Packages</li>
             <li><a href=""></a>Testimonial</li>
             <li><a href=""></a>Blog</li>
             <li><a href=""></a>Contact</li>
           </ul>
         </div>
+        <div class="show-next">
+          <i class="fa-solid fa-bars"></i>
+        </div>
       </nav>
       <div class="banner">
-        <section class="banner-content">
-          <div><h1 class="banner-title">Explore Your Travel</h1></div>
-          <div>
-            <p class="banner-description">
-              Travel is the movement of people between distant geographical
-              locations. Travel can be done by foot, bicycle, automobile, train,
-              boat, bus, airplane, ship or other means, with or without luggage,
-              and can be one way or round trip.
-            </p>
-          </div>
-          <div class="input-section">
-            <input
-              class="input-place-section"
-              type="text"
-              placeholder="     Where go"
-            />
-            <select class="input-place" name="" id="">
-              <option value="">When</option>
-            </select>
-            <select class="input-place" name="" id="">
-              <option value="">Select Type</option>
-            </select>
-            <button class="first-btn">
-              <i class="fa-solid fa-magnifying-glass"></i> Find Now
-            </button>
-          </div>
-        </section>
+        <h1 class="banner-title">Explore Your Travel</h1>
+        <p class="banner-des">
+          Travel is the movement of people between distant geographical
+          locations. Travel can be done by foot, bicycle, automobile, train,
+          boat, bus, airplane, ship or other means, with or without luggage, and
+          can be one way or round trip.
+        </p>
+        <div class="option-div">
+          <input type="text" placeholder="Where we go" />
+          <select>
+            <option>When</option>
+          </select>
+          <select>
+            <option>Select Type</option>
+          </select>
+          <button class="primary-button">
+            <i class="fa-solid fa-magnifying-glass"></i> Find Now
+          </button>
+        </div>
       </div>
     </header>
     <main>
-      <div class="popular-section-div">
-        <section class="popular-tour">
-            <div class="popular-tour-section">
-              <h1 class="popular-title">Our Popular Tours</h1>
-              <p class="popular-description">
-                Embark on unforgettable journeys with our curated selection of popular tours, designed to awaken your sense of adventure and immerse you in the beauty of diverse cultures.
-                <ul>
-                    <li>Discover the magic of Europe as you traverse historic cobblestone streets, explore majestic castles, and savor the rich flavors of local cuisines.</li>
-                    <li>Escape to the sun-kissed beaches and crystal-clear waters of tropical paradises.</li>
-                    <li>Embark on an awe-inspiring safari adventure across the vast landscapes of Africa.</li>
-                </ul>
-                From captivating cityscapes to breathtaking natural wonders, our itineraries promise a seamless blend of exploration, relaxation, and discovery. Join us on the journey of a lifetime!
-              </p>
-              <button class="first-btn">Read More</button>
-            </div>
-            <img src="/Images/Rectangle 4.png" alt="" class="tour-img">
-          </section>
-      </div>
-      <div class="destination">
-        <div class="destination-div">
-            <h1 class="popular-title">Choose Your Destination</h1>
-            <p class="destination-description">Identify the purpose of your trip. As previously mentioned, it is important to know what you expect from your holidays before choosing a travel destination.</p>
-            <br>
-            <div class="destination-container">
-                    <img class="grid-item maldives" src="/Images/Rectangle 5.png" alt="">
-                    <img class="grid-item indonesia" src="/Images/Rectangle 8.png" alt="">
-            </div>
-            <div class="destination-container">
-                    <img class="grid-item srilanka" src="/Images/Rectangle 6.png" alt="">
-                    <img class="grid-item north-US" src="/Images/Rectangle 7.png" alt="">
-                    <img class="grid-item kashmir" src="/Images/Rectangle 9.png" alt="">
-            </div>
-            <div class="destination-container">
-                    <img class="grid-item bangladesh" src="/Images/Rectangle 11.png" alt="">
-                    <img class="grid-item bandarban" src="/Images/Rectangle 10.png" alt="">
-            </div>
-          </div>
-      </div>
-      <section class="about-us">
-        <div class="about-title-section">
-          <h1 class="popular-title">Why Choose Us</h1>
-          <p class="about-us-description">
-          We are immensely happy in rendering services to a wide range of clients who believe in our spotless and most reliable services.
+      <section class="popular">
+        <div class="p-text">
+          <h1 class="section-title">Our Popular Tours</h1>
+          <p class="popular-description">
+            Embark on unforgettable journeys with our curated selection of
+            popular tours, designed to awaken your sense of adventure and
+            immerse you in the beauty of diverse cultures.
           </p>
+          <div class="list-div">
+            <ul>
+              <li>
+                Discover the magic of Europe as you traverse historic
+                cobblestone streets, explore majestic castles, and savor the
+                rich flavors of local cuisines.
+              </li>
+              <li>
+                Escape to the sun-kissed beaches and crystal-clear waters of
+                tropical paradises.
+              </li>
+              <li>
+                Embark on an awe-inspiring safari adventure across the vast
+                landscapes of Africa.
+              </li>
+            </ul>
+          </div>
+          <p class="popular-description">
+            From captivating cityscapes to breathtaking natural wonders to a
+            seamless blend of exploration, relaxation, and discovery.
+          </p>
+          <button class="primary-button pop-read">Read More</button>
         </div>
+        <div class="popular-img">
+          <img src="images/Rectangle 4.png" alt="" />
+        </div>
+      </section>
+      <section class="destination">
+        <h1 class="destination-title">Choose Your Destination</h1>
+        <p class="destination-p">
+          Identify the purpose of your trip. As previously mentioned, it is
+          important to know what you expect from your holidays before choosing a
+          travel destination.
+        </p>
+        <div class="container">
+          <div class="mal">
+            <img src="images/Rectangle 5.png" class="image" />
+          </div>
+          <div class="indo">
+            <img src="images/Rectangle 8.png" class="image" />
+          </div>
+          <div class="sri">
+            <img src="images/Rectangle 6.png" class="image" />
+          </div>
+          <div class="usa">
+            <img src="images/Rectangle 7.png" class="image" />
+          </div>
+          <div class="kashmir">
+            <img src="images/Rectangle 9.png" class="image" />
+          </div>
+          <div class="bd">
+            <img src="images/Rectangle 10.png" class="image" />
+          </div>
+          <div class="bandarban">
+            <img src="images/Rectangle 11.png" class="image" />
+          </div>
+        </div>
+      </section>
+      <section class="about-us">
+        <h1 class="destination-title">Why Choose Us</h1>
+        <p class="destination-p">
+          We are immensely happy in rendering services to a wide range of
+          clients who believe in our spotless and most reliable services.
+        </p>
         <div class="box-container">
           <div class="box box-1">
             <img src="images/hotel 1.svg" alt="" class="box-img" />
             <h1 class="img-info">Handpicked Hotels</h1>
-            <p class="img-des">
-              Book at Handpicked Hotel & Collections Seoul. No Reservation Costs. Great Rates. Choose From a Wide Range of Properties Which Booking.com Offers.
+            <p>
+              Book at Handpicked Hotel & Collections Seoul. No Reservation
+              Costs. Great Rates. Choose From a Wide Range of Properties Which
+              Booking.com Offers.
             </p>
           </div>
           <div class="box box-2">
             <img src="images/map 1.svg" alt="" class="box-img" />
             <h1 class="img-info">World Class Service</h1>
-            <p class="img-des">
-              World-class customer service refers to providing exceptional, unparalleled, and consistently outstanding support and assistance to customers. It goes beyond meeting basic expectations and aims to create a positive customer experience in the industry.
+            <p>
+              World-class customer service refers to providing exceptional,
+              unparalleled, and consistently outstanding support and assistance
+              to customers.
             </p>
           </div>
-        </div>
-        <div class="box-3-section">
           <div class="box box-3">
             <img src="images/price-tag 1.svg" alt="" class="box-img" />
             <h1 class="img-info">Best Price Guarantee</h1>
-            <p class="img-des">
-              To ensure that you always receive the best price, we will match or beat any competitor's price. If you book a stay or an activity on tech-travel.com and find a cheaper price on another website.
+            <p>
+              To ensure that you always receive the best price, we will match or
+              beat any competitor's price. If you book a stay or an activity on
+              tech-travel.com and find a cheaper price on another website.
             </p>
           </div>
         </div>
@@ -135,24 +165,24 @@
         </div>
         <div class="form-img">
           <img src="images/Rectangle 8 (1).png" alt="" />
-          <div class="discount-tag">
-            <h2>Travel.com</h2>
-            <p>Save up to 70%</p>
+          <div class="tag">
+            <small>Travel.com</small>
+            <p><strong>Save up to 70%</strong></p>
           </div>
         </div>
       </section>
     </main>
     <footer class="footer">
       <div class="footer-main">
-        <div class="footer-description">
-          <img src="Images/Group 40071 (2).png" alt="" />
-          <h1 class="nav-header"> Tech <span class="home-nav">Tour</span></h1>
+        <div class="foo-des">
+          <img src="images/Group 40071 (2).png" alt="" />
+          <h1 class="foo-title">Tech <span class="head-nav">Tour</span></h1>
         </div>
-        <p class="footer-title-description">
+        <p>
           Travel is the movement of people between distant geographical
-              locations.
+          locations.
         </p>
-        <div class="footer-icons">
+        <div class="icons">
           <i class="fa-brands fa-twitter"></i>
           <i class="fa-brands fa-facebook"></i>
           <i class="fa-brands fa-instagram"></i>
@@ -160,11 +190,7 @@
         </div>
       </div>
       <hr />
-      <h3 class="footer-rights">2017, All Rights Reserved.</h3>
+      <h3>2017, All Rights Reserved.</h3>
     </footer>
-    <script
-      src="https://kit.fontawesome.com/eb45968083.js"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>
