@@ -71,6 +71,9 @@ nav a {
 
 .banner-des {
   color: #fff;
+  width: 676px;
+  margin-top: 48px;
+  margin-bottom: 48px;
   text-align: center;
   font-size: 16px;
   font-style: normal;
@@ -439,6 +442,7 @@ footer .icons {
   }
 
   .banner-des {
+    width: 304px;
     font-size: 14px;
     margin-top: 10px;
     margin-bottom: 10px;
